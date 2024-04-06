@@ -1,0 +1,282 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Input Sans Narrow";
+    display: block;
+    margin: 0;
+}
+
+
+img {
+    width: 100%;
+    margin:0;
+    display: block;
+}
+
+header {
+    background-color: #181116;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    font-size: 24px;
+    font-style: normal;
+    line-height: normal;
+    margin: auto;
+    padding: auto;
+    position: fixed;
+    z-index: 1;
+}
+
+#menu {
+width: 61px;
+margin: 0px 20px;
+display: flex;
+flex-direction: column;
+height: 61px;
+}
+
+#menu hr {
+    height: 8px;
+    width: 61px;
+    background-color: #FFF;
+    border-radius: 10%;
+    margin: auto;
+}
+
+header nav ul a.text:hover {
+    background-color: #FFF;
+    color: #000;
+    padding: 10px;
+    border-radius: 20px;;
+
+}
+
+header nav ul {
+    list-style-type: none;
+    justify-content: space-between;
+    display: flex;
+    gap: 18px;
+    align-items: center;
+}
+
+header nav ul .icon {
+    max-height: 50%;
+    margin: 10px;
+}
+
+header nav ul a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+
+div.herosection {
+    height: 924px;
+    position: relative;
+}
+
+.herosection img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.herosection h1 {
+    position: absolute;
+    top: 198px;
+    font-size: 160px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%; /* 192px */
+    letter-spacing: -1.76px;
+    color: #FFF;
+    
+}
+
+.herosection button{
+    position: absolute;
+    max-width: 292px;
+    top: 573px;
+    width: 292px;
+    height: auto;
+    background: #181116;
+    color: #FFF;
+    text-align: center;
+    font-family: "Input Sans Narrow";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 38.4px */
+    letter-spacing: -0.352px;   
+    padding: 19px 65px;
+    border-radius: 38.5px;
+    margin-top: 100px;
+}
+
+.herosection-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none; 
+}
+
+.contenuto{
+    margin:100px 0px 0px 0px;
+}
+.contenuto-text{
+    max-width: 100%;
+    margin-left:8%;
+    padding-top: 20px;
+}
+.contenuto h1 { 
+    color: #FE6225;
+    text-align: left;
+    font-feature-settings: 'ss04' on, 'ss05' on, 'ss02' on, 'ss01' on;
+    font-family: "Rig Sans";
+    font-size: 160px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: -1.76px;
+}
+
+.contenuto p {
+max-width: 60%;
+font-family: "Rig Sans";
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 54px */
+letter-spacing: -0.396px;
+margin-bottom: 0;
+padding-bottom:90px;
+}
+
+#c4 {
+    background-color: #FE6225;
+    color: #FFF;
+    margin: 0px;
+}
+
+#c4 h1 { 
+    color: #ffffff;
+}
+
+footer{
+    background-color: #181116;
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    max-width: 100%;
+    align-items: center;
+    padding: 0px 100px;
+}
+
+
+footer p:hover{
+    background-color: #FE6225;
+    color: white;
+}
+
+footer p {
+    color: #000;
+    text-align: center;
+    font-family: "Input Sans Narrow";
+    font-size: 32px;
+    font-style: normal;
+    letter-spacing: -0.352px;
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+    padding: 19px 72px;
+    max-width: 498px;
+    justify-content: center;
+    border-radius: 38.5px;
+}
+
+footer img{
+    width: auto;
+    height: 51px;
+    margin: 10px;
+}
+
+@media (max-width:600px){
+    .contenuto h1, .herosection h1 { 
+        font-size: 40px;
+    }
+
+    .contenuto p, .herosection p { 
+        font-size: 20px;
+        max-width: 100%;
+    }
+
+    header {
+        font-size: 8px;
+        max-width: 100%;
+        position: fixed;
+        justify-content: space-between;
+    }
+
+    .herosection button{
+        font-size: 18px;
+        padding: 5px 10px;
+        width: 132px;
+    }
+
+    #menu hr {
+        height: 3px;
+        width: 21px;
+    }
+
+    #menu {
+        width: 20px;
+        height: 20px;
+        margin: auto;
+        }
+
+        header nav ul .icon{
+            margin: auto;
+        }
+
+        header nav ul .icon img{
+            height: 10px;
+            margin: auto;
+        }
+        header nav ul {
+            padding: 10px;
+        }
+        
+        header nav{
+           align-items: center;
+           padding: auto;
+        }
+
+    footer p{
+        font-size: 10px;
+        padding: 5px 10px;
+    }
+
+    footer{
+        width:100%;
+        padding: 0px;
+        height: 100px;
+    }
+
+    .contenuto-text{
+        max-width: 100%;
+        margin-left: 1%;
+    }
+
+    footer img{
+        width: 10px;
+        height: auto;
+        margin: 5px;
+    }
+
+}

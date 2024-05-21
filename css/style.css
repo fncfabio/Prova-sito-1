@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    font-family: "Input Sans Narrow";
+    font-family: "Input Sans Narrow", sans-serif;
     display: block;
     margin: 0;
 }

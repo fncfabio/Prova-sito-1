@@ -108,7 +108,6 @@ div.herosection {
     background: #181116;
     color: #FFF;
     text-align: center;
-    font-family: "Input Sans Narrow", sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 500;
@@ -137,8 +136,7 @@ div.herosection {
 .contenuto h1 { 
     color: #FE6225;
     text-align: left;
-    font-feature-settings: 'ss04' on, 'ss05' on, 'ss02' on, 'ss01' on;
-    font-family: "Rig Sans", sans-serif;
+    font-family: "rig-sans", sans-serif;
     font-size: 160px;
     font-style: normal;
     font-weight: 900;
@@ -148,7 +146,7 @@ div.herosection {
 
 .contenuto p {
 max-width: 60%;
-font-family: "Rig Sans", sans-serif;
+font-family: "rig-sans", sans-serif;
 font-size: 36px;
 font-style: normal;
 font-weight: 400;
@@ -188,6 +186,7 @@ footer p {
     color: #000;
     text-align: center;
     font-family: "Input Sans Narrow", sans-serif;
+    font-family: "input-sans-narrow", sans-serif;
     font-size: 32px;
     font-style: normal;
     letter-spacing: -0.352px;

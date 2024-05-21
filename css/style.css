@@ -137,7 +137,6 @@ div.herosection {
 .contenuto h1 { 
     color: #FE6225;
     text-align: left;
-    font-feature-settings: 'ss04' on, 'ss05' on, 'ss02' on, 'ss01' on;
     font-family: "rig-sans", sans-serif;
     font-size: 160px;
     font-style: normal;

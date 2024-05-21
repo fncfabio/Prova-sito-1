@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    font-family: "Input Sans Narrow", sans-serif;
+    font-family: "input-sans-narrow", sans-serif;
     display: block;
     margin: 0;
 }
@@ -108,7 +108,7 @@ div.herosection {
     background: #181116;
     color: #FFF;
     text-align: center;
-    font-family: "Input Sans Narrow", sans-serif;
+    font-family: "input-sans-narrow", sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 500;
@@ -187,7 +187,7 @@ footer p:hover{
 footer p {
     color: #000;
     text-align: center;
-    font-family: "Input Sans Narrow", sans-serif;
+    font-family: "input-sans-narrow", sans-serif;
     font-size: 32px;
     font-style: normal;
     letter-spacing: -0.352px;
